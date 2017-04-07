@@ -2,21 +2,33 @@
   "title": "MICROSCOPE",
   "periods": [
     {
-      "name": "PERIOD",
+      "name": "PERIOD 1",
       "dark": false,
       "events": [
         {
-          "name": "EVENT",
+          "name": "EVENT 1",
           "dark": false,
           "scenes": [
             {
-              "name": "SCENE",
+              "name": "SCENE 1",
               "dark": false,
               "question": "QUESTION",
               "answer": "ANSWER"
             },
             {
-              "name": "SCENE",
+              "name": "SCENE 2",
+              "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE 3",
+              "dark": false,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE 4",
               "dark": true,
               "question": "QUESTION",
               "answer": "ANSWER"
@@ -24,18 +36,24 @@
           ]
         },
         {
-          "name": "EVENT",
+          "name": "EVENT 2",
           "dark": true,
           "scenes": [
             {
-              "name": "SCENE",
+              "name": "SCENE 1",
               "dark": false,
               "question": "QUESTION",
               "answer": "ANSWER"
             },
             {
-              "name": "SCENE",
+              "name": "SCENE 2",
               "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE 3",
+              "dark": false,
               "question": "QUESTION",
               "answer": "ANSWER"
             }
@@ -44,21 +62,21 @@
       ]
     },
     {
-      "name": "PERIOD",
+      "name": "PERIOD 2",
       "dark": true,
       "events": [
         {
-          "name": "EVENT",
+          "name": "EVENT 1",
           "dark": false,
           "scenes": [
             {
-              "name": "SCENE",
+              "name": "SCENE 1",
               "dark": false,
               "question": "QUESTION",
               "answer": "ANSWER"
             },
             {
-              "name": "SCENE",
+              "name": "SCENE 2",
               "dark": true,
               "question": "QUESTION",
               "answer": "ANSWER"
@@ -66,18 +84,12 @@
           ]
         },
         {
-          "name": "EVENT",
+          "name": "EVENT 2",
           "dark": true,
           "scenes": [
             {
-              "name": "SCENE",
+              "name": "SCENE 1",
               "dark": false,
-              "question": "QUESTION",
-              "answer": "ANSWER"
-            },
-            {
-              "name": "SCENE",
-              "dark": true,
               "question": "QUESTION",
               "answer": "ANSWER"
             }
