@@ -1,0 +1,89 @@
+{
+  "title": "MICROSCOPE",
+  "periods": [
+    {
+      "name": "PERIOD",
+      "dark": false,
+      "events": [
+        {
+          "name": "EVENT",
+          "dark": false,
+          "scenes": [
+            {
+              "name": "SCENE",
+              "dark": false,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE",
+              "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            }
+          ]
+        },
+        {
+          "name": "EVENT",
+          "dark": true,
+          "scenes": [
+            {
+              "name": "SCENE",
+              "dark": false,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE",
+              "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PERIOD",
+      "dark": true,
+      "events": [
+        {
+          "name": "EVENT",
+          "dark": false,
+          "scenes": [
+            {
+              "name": "SCENE",
+              "dark": false,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE",
+              "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            }
+          ]
+        },
+        {
+          "name": "EVENT",
+          "dark": true,
+          "scenes": [
+            {
+              "name": "SCENE",
+              "dark": false,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            },
+            {
+              "name": "SCENE",
+              "dark": true,
+              "question": "QUESTION",
+              "answer": "ANSWER"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
