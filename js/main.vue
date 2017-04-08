@@ -48,17 +48,28 @@ import game from '../static/game.json';
 
 export default {
     data() {
-        game.periods.forEach((period, p) => {
-            period.id = p;
-            period.events.forEach((event, e) => {
-                event.id = p * 10 + e;
-                event.scenes.forEach((scene, s) => {
-                    scene.id = e * 10 + s;
-                });
-            });
-        });
+        return {
+            title: null,
+            periods: []
+        };
+    },
+    created() {
+        this.$http.get('./game.json').then(
+            resp => {
+                this.title = resp.body.title;
 
-        return game;
+                this.periods = resp.body.periods;
+                this.periods.forEach((period, p) => {
+                    period.id = p;
+                    period.events.forEach((event, e) => {
+                        event.id = p * 10 + e;
+                        event.scenes.forEach((scene, s) => {
+                            scene.id = e * 10 + s;
+                        });
+                    });
+                });
+            },
+            resp => console.error(resp));
     },
     methods: {
         reverse(array) {

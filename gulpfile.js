@@ -45,6 +45,7 @@ gulp.task('serve', () => {
 gulp.task('watch', () => {
     gulp.watch('js/*', ['browserify']);
     gulp.watch('less/*', ['less']);
+    gulp.watch('static/*', ['static']);
 });
 
 gulp.task('gh-pages', () => {
