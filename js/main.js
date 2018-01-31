@@ -7,6 +7,6 @@ import Main from './main.vue';
 Vue.use(VueResource);
 
 const main = new Vue({
-    el: '#main',
-    render: createElement => createElement(Main)
+  el: '#main',
+  render: createElement => createElement(Main)
 });
