@@ -11,6 +11,14 @@
   </div>
 </template>
 
+<style lang='scss'>
+@import '../scss/mixins';
+
+.scene {
+  @include card-vertical;
+}
+</style>
+
 <script>
 export default {
   props: ['initScene'],

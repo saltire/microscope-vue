@@ -1,0 +1,36 @@
+$card-long: 500px;
+$card-short: 300px;
+
+@mixin card {
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fafafa;
+  box-shadow: 0 10px 20px #ddd;
+
+  .spot {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background: white;
+
+    &.dark {
+      border: none;
+      background: black;
+    }
+  }
+}
+
+@mixin card-vertical {
+  @include card;
+  width: $card-short;
+  height: $card-long;
+}
+
+@mixin card-horizontal {
+  @include card;
+  width: $card-long;
+  height: $card-short;
+}

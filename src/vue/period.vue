@@ -8,11 +8,19 @@
     </div>
 
     <section class='events'>
-      <event v-for='event in events' :initEvent='event'></event>
+      <event v-for='event in events' :key='event.id' :initEvent='event'></event>
     </section>
 
   </div>
 </template>
+
+<style lang='scss'>
+@import '../scss/mixins';
+
+.period {
+  @include card-vertical;
+}
+</style>
 
 <script>
 import Event from './event.vue';
